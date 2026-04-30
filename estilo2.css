@@ -1,0 +1,77 @@
+/* Paleta de cores Versao 0 - 29.04.2026
+Site para Criar PALETA HARMONICA
+https://color.adobe.com/pt/create/color-wheel
+#81BCC5
+#7F979B
+#75DFF0
+#5B6D70
+#2D4246
+#042D33*/
+:root {
+  /* Criar variaveis para armazenar as cores da paleta*/
+  --cor0: #81bcc5; /*Fundo do site*/
+  --cor1: #7f979b;
+  --cor2: #75dff0;
+  --cor3: #5b6d70;
+  --cor4: #2d4246;
+  --cor5: #042d33;
+}
+body {
+  background-color: var(--cor0);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--cor4);
+  text-align: justify;
+  line-height: 1.6; /* espaçamento entre as linhas*/
+}
+
+mark {
+  background-color: var(--cor1);
+}
+
+header h1 {
+  color: var(--cor5);
+  font-size: 20px;
+}
+
+header h2 {
+  color: var(--cor3);
+  font-size: 16px;
+}
+
+nav {
+  background-color: var(--cor1);
+  border-radius: 10px;
+  border-style: solid;
+   
+ }
+
+nav a {
+  text-decoration-line: none;
+  color: var(--cor5);
+  text-decoration: none;
+  font-weight: bolder;
+  transition: 0.3s;
+ }
+
+nav a:hover{
+color:var(--cor3);
+
+
+}
+
+nav ul {
+  justify-content:center;
+  list-style-type: none;
+  display: flex;
+  padding: 2px;
+  margin: 1px;
+ }
+nav li{
+  padding: 2px 60px;
+  margin: 1px;
+/*  2px acima e abaixo  */
+/*  60px esquerda e direita  */
+
+}
+
+
